@@ -1,0 +1,84 @@
+#clear{  
+    width: 60px;  
+    border: 3px solid gray;  
+    border-radius: 3px;  
+    padding: 20px;  
+    background-color: rgb(240, 215, 215);  
+}  
+
+input{  
+    width: 64px;      
+    border: 3px solid black;  
+    border-radius: 5px;  
+    padding: 17px;  
+    margin: 5px;  
+    font-size: 20px;  
+    height: 60px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px;
+}   
+
+.button:hover{
+    background-color: aquamarine;
+}
+
+fieldset{
+    background-color: rgba(143, 141, 141, 0.37);
+    width: 230px;
+    border: 5px solid black;
+    border-radius: 40px; 
+    padding: 22px;  
+    margin: auto;  
+}
+
+legend{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.text-input{
+    height: 40px;
+    width: 80px;
+}
+.text-input2{
+    height: 40px;
+    width: 80px;
+}
+.buttonigual{
+    height: 90px;
+    width: 122px;
+    float: right;
+    background-color: aquamarine;
+}
+
+.ceButton, .cButton{
+    background-color: aquamarine;
+    width: 103px;
+}
+
+.buttonigual:hover, .ceButton:hover, .cButton:hover{
+    background-color: palevioletred;
+}
+
+.text-resultado{
+    height: 40px;
+    width: 220px;
+    background-color: rgba(255, 250, 205, 0.377);
+}
+
+.text-resultado:hover{
+    background-color: lemonchiffon;
+}
+
+#label {
+    border: rgb(119, 101, 182);
+    width: 50px;
+    font-weight: italic;
+    font-size: 20px;  
+}
+
+fieldset.calc{
+    min-width: 235px;
+}
