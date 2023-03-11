@@ -21,8 +21,10 @@ function send(sin){
 
     let result = calc(num1, num2, sin);
 
-    document.getElementById("label").innerHTML = num1 + " " + sin + " " + num2 + " = " + result;
-    document.getElementById("resultado").value = result;
+    if (typeof result !== 'undefined'){
+        document.getElementById("label").innerHTML = num1 + " " + sin + " " + num2 + " = " + result;
+        document.getElementById("resultado").value = result;
+    }
 }
 
 function populate(valor, sinal){
